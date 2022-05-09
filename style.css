@@ -1,4 +1,4 @@
-body {
+body.inicio {
   width: 70%;
   margin-left: auto;
   margin-right: auto;
@@ -23,6 +23,7 @@ h3 {
   font-variant: normal;
   font-weight: 700;
   line-height: 15.399999618530273px;
+  margin-bottom: 10px;
 }
 p {
   font-family: monaco, Consolas, "Lucida Console", monospace;
@@ -120,7 +121,10 @@ div.videos {
   padding: 0;  
  }  
  body {  
-  font-family: monaco, Consolas, "Lucida Console", monospace;  
+  font-family: monaco, Consolas, "Lucida Console", monospace;
+  background-image: url("img/marble.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
  }  
  .hero {  
   display: -ms-grid;  
@@ -320,7 +324,7 @@ div.videos {
   color: #5dc2af;  
  }  
  .add-todo-text-input, .todo-text {  
-  font-size: 20px;  
+  font-size: 16px;  
   color: #4d4d4d;  
  }  
  .todo-text {  
