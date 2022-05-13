@@ -1,3 +1,7 @@
+* {
+  font-family: monaco, Consolas, "Lucida Console", monospace;
+}
+
 body.inicio {
   width: 70%;
   margin-left: auto;
@@ -34,7 +38,7 @@ p {
   line-height: 20px;
 }
 blockquote {
-  font-family: monaco, Consolas, "Lucida Console", monospace;
+
   font-size: 21px;
   font-style: normal;
   font-variant: normal;
