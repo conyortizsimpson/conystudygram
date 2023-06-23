@@ -494,4 +494,9 @@ div.videos {
     width: 100%; /* Establecer el ancho al 100% en pantallas más pequeñas */
     overflow: visible;
   }
+  body {
+    background-image: url("img/marble.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
 }
