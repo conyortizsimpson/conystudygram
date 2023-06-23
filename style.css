@@ -498,5 +498,7 @@ div.videos {
     background-image: url("img/marble.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
   }
 }
